@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\59801\\source\\repos\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj": {}
+    "D:\\Users\\59801\\Documents\\GitHub\\ASPNETCoreMVCLojaVirtualCurso\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj": {}
   },
   "projects": {
-    "C:\\Users\\59801\\source\\repos\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj": {
+    "D:\\Users\\59801\\Documents\\GitHub\\ASPNETCoreMVCLojaVirtualCurso\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\59801\\source\\repos\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj",
+        "projectUniqueName": "D:\\Users\\59801\\Documents\\GitHub\\ASPNETCoreMVCLojaVirtualCurso\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj",
         "projectName": "LojaVirtual",
-        "projectPath": "C:\\Users\\59801\\source\\repos\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj",
+        "projectPath": "D:\\Users\\59801\\Documents\\GitHub\\ASPNETCoreMVCLojaVirtualCurso\\LojaVirtual\\LojaVirtual\\LojaVirtual.csproj",
         "packagesPath": "C:\\Users\\59801\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\59801\\source\\repos\\LojaVirtual\\LojaVirtual\\obj\\",
+        "outputPath": "D:\\Users\\59801\\Documents\\GitHub\\ASPNETCoreMVCLojaVirtualCurso\\LojaVirtual\\LojaVirtual\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\59801\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,6 +40,26 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
